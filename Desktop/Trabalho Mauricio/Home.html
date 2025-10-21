@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="\Style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background">
+        <div class="video-overlay"></div>
+        <video autoplay muted loop playsinline>
+            <source src="\backcroud\network-science-and-technology-moewalls-com.mp4" type="video/mp4">
+        </video>
+    </div>
+    
+    <div class="checkout">
+        <fieldset>
+            <h1>Qual Seu Cep ?</h1>
+            <form>
+            <p>
+                <label for="cep">CEP</label>
+                <input id="cep" type="text" name="cep" maxlength="9">
+                <input id="buscar" type="button" value="Buscar" onclick="BuscarCep()">
+            </p>
+            <p>
+                <label for="rua">Endereço</label>
+                <input type="text" name="rua">
+        
+            
+                <label for="bairro">Bairro</label>
+                <input type="text" name="bairro">
+
+
+                <label for="cidade">Cidade</label>
+                <input type="text" name="cidade">
+            
+           
+                <label for="estado">Estado</label>
+                <input type="text" name="estado">
+            </p>
+            </form>
+        </fieldset>
+ 
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
